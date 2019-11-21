@@ -17,6 +17,8 @@ body {
   height: 500px;
 }
 
+/* header up top */
+
 .header-top-up::after {
   content: "";
   display: table;
@@ -26,13 +28,11 @@ body {
 .header-top-up {
   width: 60%;
   margin: auto;
-  /* padding-top: 10px; */
   line-height: 70px;
 }
 
 .header-top-up ul li{
   display: inline;
-  /* padding: 10px; */
 }
 
 .header-top-left {
@@ -50,7 +50,6 @@ body {
 .color-header-up {
   background-color: #F5F8FA;
   height: 70px;
-  width: 100%;
 }
 
 .header-top-left ul li.border-left {
@@ -78,4 +77,52 @@ body {
   color: white;
   padding: 8px;
   border-radius: 5px;
+}
+
+/* fine header up top */
+/* Inizio header down top */
+.color-header-down {
+  height: 70px;
+}
+
+.header-top-down::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header-top-down {
+   height: 70px;
+   width: 60%;
+   margin: 0 auto;
+}
+
+.header-top-down-left {
+  float: left;
+}
+
+.header-top-down-right ul li {
+  display: inline;
+  padding-left: 10px;
+}
+
+.header-top-down-right ul li i {
+  padding-left: 10px;
+}
+
+.header-top-down-right {
+  float: right;
+}
+
+.header-top-down {
+  margin-top: 20px;
+  line-height: 70px,
+}
+
+.header-top-down-left img {
+  vertical-align: middle;
+}
+
+.header-down-right {
+  padding-top: 5px;
 }
