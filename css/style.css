@@ -77,12 +77,14 @@ body {
   color: white;
   padding: 8px;
   border-radius: 5px;
+  text-transform: capitalize;
 }
 
 /* fine header up top */
 /* Inizio header down top */
 .color-header-down {
-  height: 70px;
+  height: 60px;
+  line-height: 40px;
 }
 
 .header-top-down::after {
@@ -92,7 +94,6 @@ body {
 }
 
 .header-top-down {
-   height: 70px;
    width: 60%;
    margin: 0 auto;
 }
@@ -125,4 +126,28 @@ body {
 
 .header-down-right {
   padding-top: 5px;
+}
+
+/* / header top down */
+
+.header-middle {
+  display: inline-block;
+  background-image: url(../img/jumbotron.png);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 660px;
+  background-repeat: no-repeat;
+}
+
+.img-middle-header {
+  width: 60%;
+  margin: auto;
+}
+/* Racchiudere in una classe solo le caratteristiche di tutti i bottoni con sfondo arancione */
+.header-middle .img-middle-header a.box-border {
+  background-color: #ff7a59;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  text-transform: capitalize;
 }
