@@ -131,12 +131,12 @@ body {
 /* / header top down */
 
 .header-middle {
-  display: inline-block;
+  height: 655px;
   background-image: url(../img/jumbotron.png);
-  background-size: 100% 100%;
-  width: 100%;
-  height: 660px;
+  background-position: 100% 0%;
   background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .img-middle-header {
@@ -149,7 +149,6 @@ body {
   color: white;
   padding: 8px;
   border-radius: 5px;
-  text-transform: capitalize;
   text-decoration: none;
 }
 
@@ -157,7 +156,7 @@ body {
   width: 55%;
   font-size: 38px;
   margin-bottom: 30px;
-  margin-top: 30px;
+  padding-top: 30px;
 }
 
 .header-middle .img-middle-header p {
