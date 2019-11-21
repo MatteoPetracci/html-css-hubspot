@@ -143,11 +143,26 @@ body {
   width: 60%;
   margin: auto;
 }
-/* Racchiudere in una classe solo le caratteristiche di tutti i bottoni con sfondo arancione */
+/* Racchiudere in una classe solo le caratteristiche di tutti i bottoni con sfondo arancione (inserire il tah a nelle liste sopra)*/
 .header-middle .img-middle-header a.box-border {
   background-color: #ff7a59;
   color: white;
   padding: 8px;
   border-radius: 5px;
   text-transform: capitalize;
+  text-decoration: none;
+}
+
+.header-middle .img-middle-header h1 {
+  width: 55%;
+  font-size: 38px;
+  margin-bottom: 30px;
+}
+
+.header-middle .img-middle-header p {
+  font-size: 12px;
+  width: 55%;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #828282;
 }
