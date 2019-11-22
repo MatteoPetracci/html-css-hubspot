@@ -164,7 +164,7 @@ body {
   width: 55%;
   margin-bottom: 30px;
   font-weight: bold;
-  color: #828282;
+  color: #808080;
   line-height: 20px;
 }
 
@@ -195,4 +195,24 @@ section .text {
   width: 60%;
   margin: auto;
   text-align: center;
+}
+
+section .text img {
+  margin-top: 20px;
+  width: 30%;
+}
+
+section .text h2 {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+/* creare una classe comune per tutti i P */
+section .text p {
+  width: 75%;
+  font-size: 12px;
+  color: #808080;
+  margin: auto;
+  line-height: 20px;
+  font-weight: bold;
 }
