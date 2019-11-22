@@ -415,6 +415,12 @@ ul.text-left {
 
 /* inizio liste non ordinate */
 
+.container-table::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .container-table {
   height: 500px;
   border: 3px solid black;
@@ -422,6 +428,23 @@ ul.text-left {
   margin: 40px auto;
 }
 
+.box-four {
+  float: left;
+  width: 24%;
+  border: 2px solid black;
+  height: 250px;
+}
+
+.all {
+  margin-left: 3%;
+}
+
+.container-table .all .box-four img {
+  width: 40%;
+}
+.container-table .all .box-four {
+  text-align: center;
+}
 
 
 
