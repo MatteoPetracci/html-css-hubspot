@@ -264,3 +264,32 @@ section .container-book .box-one a {
   margin: 15px auto;
   text-decoration: none;
 }
+
+section .container-book .box-two h2 {
+  margin-top: 42px;
+  margin-bottom: 30px;
+}
+
+section .container-book .box-two p {
+  font-size: 12px;
+  font-weight: bold;
+  color: #808080;
+  line-height: 20px;
+  margin-bottom: 30px;
+  width: 80%;
+}
+
+section .container-book .box-two a {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.hr-right {
+  width: 50%;
+  display: inline-block;
+  background-color: black;
+  margin-left: 40px;
+  margin-bottom: 4px;
+}
