@@ -14,7 +14,7 @@ body {
 
 .container-header {
   width: 100%;
-  height: 500px;
+  height: 870px;
 }
 
 /* header up top */
@@ -170,4 +170,22 @@ body {
 
 .header-middle .img-middle-header p.block {
   margin-top: 30px;
+}
+
+/* fine header middle */
+/* inizio header bottom */
+
+.header-bottom {
+  height: 70px;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  background-color: #AFEBE4;
+  margin-top: -5px;
+}
+
+/* Inizio Main  */
+
+main {
+  height: 1000px;
+  background-color: #E0FFFF;
 }
