@@ -188,7 +188,7 @@ body {
 /* Inizio Main  */
 
 main {
-  height: 1300px;
+  height: 1390px;
   background-color: #E0FFFF;
 }
 
@@ -349,6 +349,7 @@ section .container-book .box-two ul li i {
 
 .container-third-section .float-left h2 {
   font-size: 22px;
+  margin-top: 15px;
 }
 
 ul.text-left {
@@ -359,11 +360,12 @@ ul.text-left {
   width: 95%;
   margin: auto;
   background-color: #808080;
+
 }
 
 .container-third-section .float-left ul li:first-child {
   text-transform: uppercase;
-  margin: 20px auto;
+  margin: 30px auto;
   text-align: center;
   font-weight: bold;
 }
@@ -371,4 +373,18 @@ ul.text-left {
 .container-third-section .float-left ul li i {
   color: #ff7a59;
   padding: 0 17px;
+
 }
+
+.button {
+  display: block;
+  width: 65%;
+  background-color: #ff7a59;
+  color: white;
+  padding: 15px 5px;
+  border-radius: 5px;
+  margin: 50px auto;
+  text-decoration: none;
+}
+/* fine terza sessione */
+/* inizio 4 sezione */
