@@ -389,7 +389,7 @@ ul.text-left {
 /* inizio 4 sezione */
 
 .color-section-four {
-  height: 900px;
+  height: 715px;
   background-image: linear-gradient(45deg, #00a4bd, #00bda5);
   color: white;
 }
@@ -496,9 +496,32 @@ ul.text-left {
   font-size: 35px;
 }
 
+.container-table .all .box-four i {
+  margin-top: 24px;
+  width: 50px;
+  font-size: 30px;
+  margin-bottom: 22px;
+}
 
+.img-1-b {
+  width: 76px;
+  height: 38px;
+  margin-bottom: 10px;
+}
+.img-2-b {
+  width: 109px;
+  height: 34px;
+  margin-bottom: 10px;
+}
 
+.container-table .all .box-four img.img-1-b,
+.container-table .all .box-four img.img-2-b {
+  margin-top: 24px;
+}
 
+.b-right {
+  border-right: 1px solid white;
+}
 
 
 
