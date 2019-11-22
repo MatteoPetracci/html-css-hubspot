@@ -67,7 +67,7 @@ body {
 
 .header-top-right ul li.border {
   border: 1px solid #ff7a59;
-  color: orange;
+  color: #ff7a59;
   padding: 8px;
   border-radius: 5px;
 }
@@ -303,7 +303,7 @@ section .container-book .box-two a {
 }
 
 section .container-book .box-two ul li i {
-  color: orange;
+  color: #ff7a59;
   margin-right: 15px;
 }
 
@@ -330,6 +330,8 @@ section .container-book .box-two ul li i {
   margin-top: 25px;
   margin-bottom: 25px;
   background-color: white;
+  border-radius: 5px;
+  padding: 15px;
 }
 
 .margin-section-third {
@@ -338,9 +340,35 @@ section .container-book .box-two ul li i {
 
 .container-third-section .float-left p {
   font-size: 12px;
-  width: 70%;
+  width: 90%;
   font-weight: bold;
   color: #808080;
   line-height: 20px;
   margin: 20px auto;
+}
+
+.container-third-section .float-left h2 {
+  font-size: 22px;
+}
+
+ul.text-left {
+  text-align: left;
+}
+
+.hr-third-section {
+  width: 95%;
+  margin: auto;
+  background-color: #808080;
+}
+
+.container-third-section .float-left ul li:first-child {
+  text-transform: uppercase;
+  margin: 20px auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+.container-third-section .float-left ul li i {
+  color: #ff7a59;
+  padding: 0 17px;
 }
