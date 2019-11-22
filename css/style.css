@@ -265,6 +265,8 @@ section .container-book .box-one a {
   text-decoration: none;
 }
 
+/* sezione 2 */
+
 section .container-book .box-two h2 {
   margin-top: 42px;
   margin-bottom: 30px;
@@ -303,4 +305,24 @@ section .container-book .box-two a {
 section .container-book .box-two ul li i {
   color: orange;
   margin-right: 15px;
+}
+
+/* inizione sezione 3 */
+/* creafre una classe con tutti i div con float left */
+
+.container-third-section {
+  width: 60%;
+  margin: auto;
+}
+
+.container-third-section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.float-left {
+  float: left;
+  width: 30%;
+
 }
