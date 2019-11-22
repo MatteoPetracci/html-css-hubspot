@@ -293,3 +293,14 @@ section .container-book .box-two a {
   margin-left: 40px;
   margin-bottom: 4px;
 }
+
+.inline-ul li {
+  display: inline-block;
+  margin-top: 30px;
+  margin-right: 15px;
+}
+
+section .container-book .box-two ul li i {
+  color: orange;
+  margin-right: 15px;
+}
