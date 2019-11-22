@@ -182,10 +182,17 @@ body {
   background-color: #AFEBE4;
   margin-top: -5px;
 }
+/* fine header aggiungere hover dove necessario */
 
 /* Inizio Main  */
 
 main {
   height: 1000px;
   background-color: #E0FFFF;
+}
+
+section .text {
+  width: 60%;
+  margin: auto;
+  text-align: center;
 }
