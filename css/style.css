@@ -314,7 +314,7 @@ section .container-book .box-two ul li i {
   width: 60%;
   margin: auto;
   border-radius: 5px;
-  height: 500px;
+  height: 698px;
 }
 
 .container-third-section::after {
@@ -373,7 +373,6 @@ ul.text-left {
 .container-third-section .float-left ul li i {
   color: #ff7a59;
   padding: 0 17px;
-
 }
 
 .button {
@@ -388,3 +387,28 @@ ul.text-left {
 }
 /* fine terza sessione */
 /* inizio 4 sezione */
+
+.color-section-four {
+  height: 900px;
+  background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+  color: white;
+}
+
+.text-four-section {
+  width: 60%;
+  margin: auto;
+}
+
+.color-section-four .text-four-section h2 {
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+
+.color-section-four .text-four-section h2,
+.color-section-four .text-four-section p {
+  text-align: center;
+}
+.color-section-four .text-four-section p {
+  font-size: 12px;
+  font-weight: bold;
+}
