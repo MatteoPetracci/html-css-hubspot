@@ -412,3 +412,73 @@ ul.text-left {
   font-size: 12px;
   font-weight: bold;
 }
+
+/* inizio liste non ordinate */
+
+.container-table {
+  height: 500px;
+  border: 3px solid black;
+  width: 60%;
+  margin: 40px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container-table::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.first-list-table {
+  margin-top: 80px;
+}
+
+.container-table {
+  width: 60%;
+  margin: auto;
+}
+
+.container-table .col-left {
+  width: 25%;
+  float: left;
+}
+
+section .container-table .col-left-img img {
+  width: 80px;;
+  margin-top: 70px;
+}
+
+section .container-table .col-left-img-2 img  {
+  width: 80px;;
+  margin-top: 70px;
+} */
