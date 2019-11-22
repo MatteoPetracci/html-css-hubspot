@@ -410,7 +410,7 @@ ul.text-left {
 }
 .color-section-four .text-four-section p {
   font-size: 12px;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 /* inizio liste non ordinate */
@@ -423,16 +423,25 @@ ul.text-left {
 
 .container-table {
   height: 500px;
-  border: 3px solid black;
+  /* border: 3px solid black; */
   width: 60%;
-  margin: 40px auto;
+  margin: 60px auto;
 }
 
 .box-four {
   float: left;
   width: 24%;
-  border: 2px solid black;
-  height: 250px;
+  /* border: 2px solid black; */
+  height: 198px;
+}
+
+.box-four-first {
+  float: left;
+  width: 24%;
+  /* border: 2px solid black; */
+  height: 198px;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 .all {
@@ -440,16 +449,52 @@ ul.text-left {
 }
 
 .container-table .all .box-four img {
-  width: 40%;
+  margin-top: 10px;
 }
 .container-table .all .box-four {
   text-align: center;
 }
 
+.img-1 {
+  width: 80px;
+  height: 65px;
+}
+.img-2 {
+  width: 100px;
+  height: 50px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+.img-3 {
+  width: 125px;
+  height: 50px;
+}
+.img-4 {
+  width: 97px;
+  height: 23px;
+  margin-bottom: 29px;
 
+}
 
+#top-margin {
+  margin-top: 13px;
+}
 
+#img-margin {
+  margin-top: 20px;
+}
 
+.container-table .all .box-four p {
+  margin-top: 25px;
+}
+
+.b-bottom {
+  border-bottom: 1px solid white;
+}
+
+.container-table .all .box-four h2 {
+  font-size: 35px;
+}
 
 
 
