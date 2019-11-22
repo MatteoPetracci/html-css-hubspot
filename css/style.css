@@ -188,7 +188,7 @@ body {
 /* Inizio Main  */
 
 main {
-  height: 1000px;
+  height: 1300px;
   background-color: #E0FFFF;
 }
 
@@ -313,6 +313,8 @@ section .container-book .box-two ul li i {
 .container-third-section {
   width: 60%;
   margin: auto;
+  border-radius: 5px;
+  height: 500px;
 }
 
 .container-third-section::after {
@@ -324,5 +326,21 @@ section .container-book .box-two ul li i {
 .float-left {
   float: left;
   width: 30%;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: white;
+}
 
+.margin-section-third {
+  margin: 25px 5%;
+}
+
+.container-third-section .float-left p {
+  font-size: 12px;
+  width: 70%;
+  font-weight: bold;
+  color: #808080;
+  line-height: 20px;
+  margin: 20px auto;
 }
