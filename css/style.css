@@ -526,10 +526,30 @@ ul.text-left {
 /* fine 4 sezione */
 /* inizio quinta sezione */
 
+.first-section-five::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .first-section-five {
   width: 60%;
   margin: auto;
   height: 600px;
   background-color: lightgreen;
+  margin-top: 50px;
+}
 
+.left-col-five {
+  float: left;
+  width: 40%;
+  background-color: yellow;
+  height: 200px;
+}
+
+.right-col-five {
+  float: left;
+  width: 60%;
+  background-color: red;
+  height: 200px;
 }
