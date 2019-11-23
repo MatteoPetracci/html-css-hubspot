@@ -627,6 +627,7 @@ ul.text-left {
   font-size: 25px;
   margin-bottom: 30px;
   margin-top: 30px;
+  text-transform: capitalize;
 }
 
 .second-section-five .f-left p {
@@ -653,3 +654,45 @@ ul.text-left {
 }
 
 /* fine main */
+
+footer {
+  background-color: #33475B;
+  height: 600px;
+  width: 100&;
+  margin-top: 1430px;
+  color: white;
+}
+
+.container-footer::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container-footer {
+  width: 60%;
+  margin: auto;
+}
+
+.footer-left {
+  float: left;
+  width: 23%;
+}
+
+footer .container-footer .footer-left ul li:first-child {
+  font-weight: bold;
+  line-height: 70px;
+  font-size: 15px;
+  color: white;
+}
+
+footer .container-footer .footer-left {
+  margin-top: 40px;
+  margin-right: 18.1px;
+}
+
+footer .container-footer .footer-left ul li {
+  line-height: 35px;
+  font-size: 12px;
+  color: #cbd6e2;
+}
