@@ -526,6 +526,10 @@ ul.text-left {
 /* fine 4 sezione */
 /* inizio quinta sezione */
 
+.section-five {
+  height: 800px;
+}
+
 .first-section-five::after {
   content: "";
   display: table;
@@ -535,21 +539,117 @@ ul.text-left {
 .first-section-five {
   width: 60%;
   margin: auto;
-  height: 600px;
-  background-color: lightgreen;
   margin-top: 50px;
 }
 
 .left-col-five {
   float: left;
   width: 40%;
-  background-color: yellow;
   height: 200px;
 }
 
 .right-col-five {
   float: left;
   width: 60%;
-  background-color: red;
   height: 200px;
+  margin-top: 18px;
 }
+
+.left-col-five h3 {
+  font-size: 45px;
+  margin-left: 71px;
+}
+
+.left-col-five p {
+  width: 60%;
+  line-height: 28px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.right-col-five ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.right-col-five ul li img {
+  width: 99px;
+  height: 30px;
+  margin: 5px 5px;
+  /* margin: 0 10px; */
+}
+
+.right-col-five ul li img.img-five-section {
+  height: 16px;
+  width: 89px;
+}
+
+.img-five-section-1 {
+  width: 100px;
+  height: 42px;
+}
+
+.right-col-five ul li img.img-five-section-2 {
+  height: 12px;
+  width: 90px;
+  margin-bottom: 20px;
+}
+
+.right-col-five ul li img.img-five-section-3 {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.right-col-five ul li img.img-five-section-4 {
+    width: 90px;
+    margin-bottom: 16px;
+    height: 24px;
+  }
+
+.second-section-five {
+  width: 60%;
+  margin: auto;
+}
+
+.second-section-five::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.f-left {
+  width: 40%;
+  float: left;
+  position: relative;
+}
+
+.second-section-five .f-left h2 {
+  font-size: 25px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.second-section-five .f-left p {
+  width: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.second-section-five .f-left a {
+  text-decoration: none;
+  background-color: #ff7a59;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
+.second-section-five .f-left img {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  width: 320px;
+}
+
+/* fine main */
