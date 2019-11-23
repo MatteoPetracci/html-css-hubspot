@@ -733,3 +733,29 @@ footer .container-footer .footer-left ul li a {
   margin-top: 20px;
   border: 1px solid #33475B;
 }
+
+.footer-bottom::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer-bottom {
+  margin-top: 25px;
+}
+
+.footer-left {
+  float: left;
+  font-size: 14px;
+}
+
+.footer-right {
+  float: right;
+}
+
+.footer-right ul li {
+  display: inline-block;
+  font-size: 14px;
+  padding-left: 20px;
+  color: #cbd6e2;
+}
