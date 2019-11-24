@@ -16,6 +16,10 @@ body {
   float: left;
 }
 
+.right-float {
+  float: right;
+}
+
 .container-header {
   width: 100%;
   height: 870px;
@@ -46,9 +50,6 @@ body {
 .footer-bottom {
   width: 60%;
   margin: auto;
-}
-.header-top-right {
-  float: right;
 }
 
 .color-header-up {
@@ -109,10 +110,6 @@ body {
 
 .header-top-down-right ul li i {
   padding-left: 10px;
-}
-
-.header-top-down-right {
-  float: right;
 }
 
 .header-top-down {
@@ -539,13 +536,6 @@ ul.text-left {
   width: 40%;
   height: 200px;
 }
-
-.right-col-five {
-  width: 60%;
-  height: 200px;
-  margin-top: 18px;
-}
-
 .left-col-five h3 {
   font-size: 45px;
   margin-left: 71px;
@@ -556,6 +546,12 @@ ul.text-left {
   line-height: 28px;
   margin: 20px auto;
   text-align: left;
+  }
+
+.right-col-five {
+  width: 60%;
+  height: 200px;
+  margin-top: 18px;
 }
 
 .right-col-five ul li {
@@ -728,10 +724,6 @@ footer .container-footer .footer-left ul li a {
 
 .footer-bottom {
   margin-top: 25px;
-}
-
-.footer-right {
-  float: right;
 }
 
 .footer-right ul li {
