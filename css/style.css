@@ -20,13 +20,18 @@ body {
   float: right;
 }
 
+.orange-button {
+  background-color: #ff7a59;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
 .container-header {
   width: 100%;
   height: 870px;
 }
-
 /* header up top */
-
 .header-top-up::after {
   content: "";
   display: table;
@@ -77,14 +82,10 @@ body {
   border-radius: 5px;
 }
 
-.header-top-right ul li.box-border {
-  background-color: #ff7a59;
-  color: white;
+.header-top-right ul li a.box-border {
   padding: 8px;
-  border-radius: 5px;
   text-transform: capitalize;
 }
-
 /* fine header up top */
 /* Inizio header down top */
 .color-header-down {
@@ -124,9 +125,7 @@ body {
 .header-down-right {
   padding-top: 5px;
 }
-
 /* / header top down */
-
 .header-middle {
   height: 655px;
   background-image: url(../img/jumbotron.png);
@@ -140,13 +139,9 @@ body {
   width: 60%;
   margin: auto;
 }
-/* Racchiudere in una classe solo le caratteristiche di tutti i bottoni con sfondo arancione (inserire il tah a nelle liste sopra)*/
+
 .header-middle .img-middle-header a.box-border {
-  background-color: #ff7a59;
-  color: white;
   padding: 15px 35px;
-  border-radius: 5px;
-  text-decoration: none;
   font-size: 14px;
 }
 
@@ -251,14 +246,10 @@ section .container-book .box-one img {
 }
 
 section .container-book .box-one a {
-  width: 45%;
-  background-color: #ff7a59;
-  color: white;
-  padding: 15px 25px;
-  border-radius: 5px;
   display: block;
+  width: 45%;
+  padding: 15px 25px;
   margin: 15px auto;
-  text-decoration: none;
 }
 
 /* sezione 2 */
@@ -269,12 +260,12 @@ section .container-book .box-two h2 {
 }
 
 section .container-book .box-two p {
+  width: 80%;
   font-size: 12px;
   font-weight: bold;
   color: #808080;
   line-height: 20px;
   margin-bottom: 30px;
-  width: 80%;
 }
 
 section .container-book .box-two a {
@@ -373,12 +364,8 @@ ul.text-left {
 .button {
   display: block;
   width: 65%;
-  background-color: #ff7a59;
-  color: white;
   padding: 15px 5px;
-  border-radius: 5px;
   margin: 50px auto;
-  text-decoration: none;
 }
 /* fine terza sessione */
 /* inizio 4 sezione */
@@ -625,11 +612,7 @@ ul.text-left {
 }
 
 .second-section-five .f-left a {
-  text-decoration: none;
-  background-color: #ff7a59;
-  color: white;
   padding: 15px 30px;
-  border-radius: 5px;
 }
 
 .second-section-five .f-left img {
