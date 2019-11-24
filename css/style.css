@@ -666,3 +666,8 @@ footer .container-footer .footer-left ul li a {
   padding-left: 20px;
   color: #cbd6e2;
 }
+
+footer .container-footer .footer-left ul li:hover {
+  color: #7FD1DE;
+  cursor: pointer;
+}
