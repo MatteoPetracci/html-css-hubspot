@@ -27,6 +27,11 @@ body {
   text-decoration: none;
 }
 
+.orange-button:hover {
+  background-color: #FF9F9F;
+  cursor: pointer;
+}
+
 .shadow-box {
   box-shadow: 0 0 0 2px rgb(255,255,255), 0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
