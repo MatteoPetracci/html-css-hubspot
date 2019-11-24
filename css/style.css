@@ -12,6 +12,10 @@ body {
   list-style: none;
 }
 
+.left-float {
+  float: left;
+}
+
 .container-header {
   width: 100%;
   height: 870px;
@@ -33,10 +37,6 @@ body {
 
 .header-top-up ul li{
   display: inline;
-}
-
-.header-top-left {
-  float: left;
 }
 
 .header-top-left ul li i {
@@ -100,10 +100,6 @@ body {
 .header-top-down {
    width: 60%;
    margin: 0 auto;
-}
-
-.header-top-down-left {
-  float: left;
 }
 
 .header-top-down-right ul li {
@@ -240,7 +236,6 @@ section .container-book {
 }
 
 .left-book {
-  float: left;
   width: 200px;
   height: 300px;
 }
@@ -328,7 +323,6 @@ section .container-book .box-two ul li i {
 }
 
 .float-left {
-  float: left;
   width: 30%;
   text-align: center;
   margin-top: 25px;
@@ -427,22 +421,17 @@ ul.text-left {
 
 .container-table {
   height: 500px;
-  /* border: 3px solid black; */
   width: 60%;
   margin: 60px auto;
 }
 
 .box-four {
-  float: left;
   width: 24%;
-  /* border: 2px solid black; */
   height: 198px;
 }
 
 .box-four-first {
-  float: left;
   width: 24%;
-  /* border: 2px solid black; */
   height: 198px;
   border-right: 1px solid white;
   border-bottom: 1px solid white;
@@ -547,13 +536,11 @@ ul.text-left {
 }
 
 .left-col-five {
-  float: left;
   width: 40%;
   height: 200px;
 }
 
 .right-col-five {
-  float: left;
   width: 60%;
   height: 200px;
   margin-top: 18px;
@@ -623,7 +610,6 @@ ul.text-left {
 
 .f-left {
   width: 40%;
-  float: left;
   position: relative;
 }
 
@@ -679,8 +665,8 @@ footer {
 }
 
 .footer-left {
-  float: left;
   width: 23%;
+  font-size: 14px;
 }
 
 footer .container-footer .footer-left ul li:first-child {
@@ -742,11 +728,6 @@ footer .container-footer .footer-left ul li a {
 
 .footer-bottom {
   margin-top: 25px;
-}
-
-.footer-left {
-  float: left;
-  font-size: 14px;
 }
 
 .footer-right {
