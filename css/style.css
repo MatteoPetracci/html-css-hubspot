@@ -27,6 +27,10 @@ body {
   text-decoration: none;
 }
 
+.shadow-box {
+  box-shadow: 0 0 0 2px rgb(255,255,255), 0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
 .container-header {
   width: 100%;
   height: 870px;
@@ -60,6 +64,7 @@ body {
 .color-header-up {
   background-color: #F5F8FA;
   height: 70px;
+  border-bottom: 1px solid black;
 }
 
 .header-top-left ul li.border-left {
@@ -132,7 +137,6 @@ body {
   background-position: 100% 0%;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .img-middle-header {
@@ -164,10 +168,8 @@ body {
 .header-middle .img-middle-header p.block {
   margin-top: 30px;
 }
-
 /* fine header middle */
 /* inizio header bottom */
-
 .header-bottom {
   height: 70px;
   border-top: 3px solid black;
@@ -176,9 +178,7 @@ body {
   margin-top: -5px;
 }
 /* fine header aggiungere hover dove necessario */
-
 /* Inizio Main  */
-
 main {
   height: 1390px;
   background-color: #E0FFFF;
@@ -199,7 +199,6 @@ section .text h2 {
   margin-top: 10px;
   margin-bottom: 25px;
 }
-
 /* creare una classe comune per tutti i P */
 section .text p {
   width: 75%;
@@ -209,9 +208,7 @@ section .text p {
   line-height: 20px;
   font-weight: bold;
 }
-
 /* finita prima sezione */
-
 /* inizio seconda sezione book */
 /* aggiunger text shadow */
 section .container-book {
@@ -251,9 +248,7 @@ section .container-book .box-one a {
   padding: 15px 25px;
   margin: 15px auto;
 }
-
 /* sezione 2 */
-
 section .container-book .box-two h2 {
   margin-top: 42px;
   margin-bottom: 30px;
@@ -293,10 +288,8 @@ section .container-book .box-two ul li i {
   color: #ff7a59;
   margin-right: 15px;
 }
-
 /* inizione sezione 3 */
 /* creafre una classe con tutti i div con float left */
-
 .container-third-section {
   width: 60%;
   margin: auto;
@@ -346,7 +339,6 @@ ul.text-left {
   width: 95%;
   margin: auto;
   background-color: #808080;
-
 }
 
 .container-third-section .float-left ul li:first-child {
@@ -369,7 +361,6 @@ ul.text-left {
 }
 /* fine terza sessione */
 /* inizio 4 sezione */
-
 .color-section-four {
   height: 715px;
   background-image: linear-gradient(45deg, #00a4bd, #00bda5);
@@ -392,10 +383,7 @@ ul.text-left {
 }
 .color-section-four .text-four-section p {
   font-size: 12px;
-  /* font-weight: bold; */
 }
-
-/* inizio liste non ordinate */
 
 .container-table::after {
   content: "";
@@ -450,7 +438,6 @@ ul.text-left {
   width: 97px;
   height: 23px;
   margin-bottom: 29px;
-
 }
 
 #top-margin {
@@ -499,10 +486,7 @@ ul.text-left {
 .b-right {
   border-right: 1px solid white;
 }
-
-/* fine 4 sezione */
 /* inizio quinta sezione */
-
 .section-five {
   height: 800px;
 }
@@ -550,7 +534,6 @@ ul.text-left {
   width: 99px;
   height: 30px;
   margin: 5px 5px;
-  /* margin: 0 10px; */
 }
 
 .right-col-five ul li img.img-five-section {
@@ -575,9 +558,9 @@ ul.text-left {
 }
 
 .right-col-five ul li img.img-five-section-4 {
-    width: 90px;
-    margin-bottom: 16px;
-    height: 24px;
+  width: 90px;
+  margin-bottom: 16px;
+  height: 24px;
   }
 
 .second-section-five {
@@ -621,9 +604,7 @@ ul.text-left {
   left: 60%;
   width: 320px;
 }
-
 /* fine main */
-
 footer {
   background-color: #33475B;
   height: 600px;
