@@ -405,7 +405,8 @@ ul.text-left {
 
 .img-1 {
   width: 80px;
-  height: 65px;
+  height: 55px;
+  margin-bottom: 10px;
 }
 .img-2 {
   width: 100px;
