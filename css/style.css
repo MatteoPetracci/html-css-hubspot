@@ -671,3 +671,8 @@ footer .container-footer .footer-left ul li:hover {
   color: #7FD1DE;
   cursor: pointer;
 }
+
+.last-div ul li:hover {
+  color: #7FD1DE;
+  cursor: pointer;
+}
