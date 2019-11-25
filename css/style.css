@@ -76,6 +76,12 @@ body {
 
 .header-top-right ul li i {
   color: #02A5BE;
+  cursor: pointer;
+}
+
+.header-top-right ul li.border:hover {
+  background-color: #EBEBEB;
+  cursor: pointer;
 }
 
 .header-top-right ul li {
